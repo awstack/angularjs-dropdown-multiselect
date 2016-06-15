@@ -219,7 +219,7 @@ directiveModule.directive('ngDropdownMultiselect', ['$filter', '$document', '$co
                             if (totalSelected === null) {
                                 return $scope.texts.buttonDefaultText;
                             } else {
-                                return totalSelected 
+                                return totalSelected; 
                             }
                         }
                     } else {
